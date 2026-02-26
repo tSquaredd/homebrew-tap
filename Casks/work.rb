@@ -3,7 +3,7 @@ cask "work" do
   name "work"
   desc "Claude Code worktree manager — parallel AI coding sessions"
   homepage "https://github.com/tSquaredd/work-cli"
-  version "0.2.5"
+  version "0.3.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "work" do
   on_macos do
     on_intel do
       url "https://github.com/tSquaredd/work-cli/releases/download/v#{version}/work_darwin_amd64.tar.gz"
-      sha256 "fcc1b5c99e535b984a44b08eaf67227580dd2b09cf8fbfdf31762a6c7ac8423a"
+      sha256 "eb52d4ebd8bcdf2c933bf7eed7a06379309711920940563e4051d2fe9a0064ee"
     end
     on_arm do
       url "https://github.com/tSquaredd/work-cli/releases/download/v#{version}/work_darwin_arm64.tar.gz"
-      sha256 "bbdea7010fa1d78fe2438ba05d69d2ef7cbe9a40ee2b99c402e5830d9d9cb72e"
+      sha256 "9d15c14e30d669e583f4425750242b673293d77e7c75af8b188c865c737df629"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/tSquaredd/work-cli/releases/download/v#{version}/work_linux_amd64.tar.gz"
-      sha256 "9a3638455f9c7de1a134ca91aa4c8be1614312b59e96a4bc7ce5ba8a3a89a8aa"
+      sha256 "20e606d7b33410d46ed700094521451d5db6851f83111f7bc7eef051c1fdeb5a"
     end
     on_arm do
       url "https://github.com/tSquaredd/work-cli/releases/download/v#{version}/work_linux_arm64.tar.gz"
-      sha256 "a27fa9cba535e7a3dbc265892dbe7f5682d5476dcbd710ee2a68cb7ee6a6860a"
+      sha256 "bdf17ec4f204e94407a00ed9b63e877ce10446209bd2de3b7756b50e879c3dc0"
     end
   end
 
